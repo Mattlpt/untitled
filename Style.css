@@ -1,0 +1,59 @@
+body {
+    background: white;
+    margin: 0 0 0 0;
+}
+
+.top-band {
+    width: 100%;
+    height: 15px;
+    background: white;
+}
+
+.top-band .text {
+
+    font-size: 10px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav {
+    width: 100%;
+    padding: 30px;
+    background: grey;
+}
+.nav,
+.nav .nav-links {
+    display: flex;
+    align-items: center;
+    padding: 10 0 0 0;
+}
+.nav {
+    justify-content: space-between;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+    color: yellow;
+
+}
+
+
+.nav .nav-links {
+    font-size: 14px;
+    font-weight: 200;
+    column-gap: 50px;
+    list-style: none;
+    color: yellow;
+    margin-top: 10px;
+}
+
+.nav .nav-links a {
+    transition: all 0.2s linear;
+
+}
